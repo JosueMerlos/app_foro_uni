@@ -1,0 +1,20 @@
+<ion-view view-title="Contactos">
+  <ion-content>
+  <ion-refresher
+    pulling-text="Refrescando..."
+    on-refresh="peticion_get()">
+  </ion-refresher>
+    <div>
+      <ion-list>
+        <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="contact in contactos" type="item-text-wrap">
+          <img ng-src="http://ionicframework.com/present-ionic/slides/img/me.png">
+          <h2>{{contact.nombre}}</h2>
+          <p>{{contact.correo}} | {{contact.edad}} Años</p>
+          <a ng-click="show_menu({{contact.id}})"><i class="icon ion-android-more-vertical icon-accessory c_menu"></i></a>
+        </ion-item>
+      </ion-list>
+    </div>
+  </ion-content>
+  <a href="#/new" class="btn-agregar"><i class="icon ion-plus"></i></a>
+</ion-view>
+<!-- http://plainicon.com/dboard/userprod/2800_a1826/prod_thumb/plainicon.com-50237-256px-0c4.png -->

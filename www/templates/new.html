@@ -1,0 +1,21 @@
+<ion-view view-title="Nuevo Contacto">
+	<ion-nav-buttons side="right">
+	  <a ng-click="nuevo(contacto)" class="button verde"><i class="icon ion-checkmark"></i></a>
+    </ion-nav-buttons>
+	<ion-content>	
+		<div class="list card padding" style="text-align:left">
+		  <label class="item item-input item-floating-label">
+		    <span class="input-label">Nombre:</span>
+		    <input type="text" placeholder="Nombre" ng-model="contacto.nombre">
+		  </label>
+		  <label class="item item-input item-floating-label">
+		    <span class="input-label">Correo:</span>
+		    <input type="email" placeholder="Correo" ng-model="contacto.correo">
+		  </label>
+		  <label class="item item-input item-floating-label">
+		    <span class="input-label">Edad:</span>
+		    <input type="number" placeholder="Edad" ng-model="contacto.edad">
+		  </label>
+		</div>
+	</ion-content>
+</ion-view>

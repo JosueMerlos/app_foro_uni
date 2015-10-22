@@ -1,0 +1,42 @@
+/* Empty. Add your own CSS if you like */
+.btn-agregar{
+	float: right;
+    background-color: #01631D;
+    border-radius: 50%;
+    color: white !important;
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 15px 20px;
+    position: fixed;
+    right: 10px;
+    text-decoration: none;
+    z-index: 2;
+    bottom: 10px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+}
+.bar-balanced{
+    background-color: #01631D !important;
+}
+.c_menu{
+    font-size: 1.5rem !important;
+    color: black !important;
+}
+.verde{
+    background-color: #01631D !important;
+    font-size: 1.7rem;
+    border-color: #fff !important;
+}
+.action-sheet-options{
+    background: #FFFFFF;
+}
+
+.item p, .item h2{
+    height: 20px;
+    margin-bottom: 0px;
+}
+.card .item:last-child {
+    border-bottom: 1px solid #DDDDDD !important;
+}
+.card {
+    box-shadow: none;
+}
